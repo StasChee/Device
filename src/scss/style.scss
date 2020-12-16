@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'opensans', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+$bg-color: #f7e296;
+
+.container {
+    width: 100%;
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'title';
+@import 'slider';
+@import 'buttons';

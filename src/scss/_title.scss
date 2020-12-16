@@ -1,0 +1,19 @@
+.title {
+    font-family: 'gilroy';
+    font-size: 47px;
+    position: relative;
+    font-weight: 900;
+    &_main {
+        text-transform: uppercase;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    &_slider {
+        width: 392px;
+        min-height: 100px;
+        margin: 0;
+        margin-bottom: -13px;
+    }
+}
