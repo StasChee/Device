@@ -3,23 +3,75 @@
     height: 299px;
     background-color: $bg-color;
     margin-top: 50px;
+    position: relative;
 
-    .user-menu {
-        display: flex;
-        padding-top: 47px;
-        list-style-type: none;
-        padding-left: 0;
-        &__item:first-child {
+    .user {
+        &__list {
+            display: flex;
+            padding-top: 47px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        &__search {
             padding-left: 99px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 62px;
+                top: 51px;
+                background: url('../img/search.svg');
+            }
         }
-        &__item:nth-child(2) {
-            padding-left: 420px;
+        &__log {
+            padding-left: 383px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 13px;
+                height: 12px;
+                right: 539px;
+                top: 51px;
+                background: url('../img/user.svg');
+            }
         }
-        &__item:nth-child(3) {
+        &__compare {
             padding-left: 238px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                top: 53px;
+                right: 252px;
+                background: url('../img/compare.svg');
+            }
         }
-        &__item:last-child {
+        &__cart {
             padding-left: 65px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                top: 51px;
+                right: 119px;
+                background: url('../img/cart.svg');
+            }
+        }
+        &__input {
+            border: none;
+            font-family: 'opensans';
+            font-size: 15px;
+            font-weight: 300;
+            background-color: $bg-color;
+            width: 150px;
+            position: relative;
         }
     }
 
@@ -38,6 +90,17 @@
 
         &__item:first-child {
             padding-left: 60px;
+            position: relative;
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                top: 3px;
+                right: -28px;
+                background: url('../img/plus.svg');
+            }
         }
         &__item:nth-child(2) {
             padding-left: 326px;
@@ -48,5 +111,13 @@
         &__item:last-child {
             padding-left: 114px;
         }
+    }
+    &__line {
+        width: 100px;
+        height: 7px;
+        background-color: #ffffff;
+        position: absolute;
+        right: 458px;
+        bottom: 65px;
     }
 }

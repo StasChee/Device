@@ -11,13 +11,33 @@
     <header>
         <div class="container">
             <div class="wrapper">
-                <h1 class="title title_main">Device</h1>
-                <ul class="user-menu">
-                    <li class="user-menu__item"><a href="#">Поиск по сайту</a></li>
-                    <li class="user-menu__item"><a href="#">Войти</a></li>
-                    <li class="user-menu__item"><a href="#">Сравнить</a></li>
-                    <li class="user-menu__item"><a href="#">Корзина</a></li>
-                </ul>
+                <div class="user">
+                    <a href="#"><h1 class="title title_main">Device</h1></a>
+                    <ul class="user__list">
+                        <li class="user__item">
+                            <div class="user__search">
+                                <input class="user__input" name="name" placeholder="Поиск по сайту" type="text">
+                            </div>
+                        </li>
+                        <li class="user__item">
+                            <div class="user__log">
+                                <a href="#">Войти</a>
+                            </div>
+                        </li>
+                        <li class="user__item">
+                            <div class="user__compare">
+                                <a href="#">Сравнить</a>
+                            </div>
+                        </li>
+                        <li class="user__item">
+                            <a href="#">
+                                <div class="user__cart">
+                                    Корзина
+                                </div>
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
                 <nav class="navigation">
                     <ul class="navigation__menu">
                         <li class="navigation__item"><a href="">Каталог товаров</a></li>
@@ -25,7 +45,8 @@
                         <li class="navigation__item"><a href="#">Гарантия</a></li>
                         <li class="navigation__item"><a href="#">Контакты</a></li>
                     </ul>
-            </nav>
+                </nav>
+                <div class="wrapper__line"></div>
             </div>
             
             <div class="slider">
@@ -184,6 +205,17 @@
                         <img src="img/credit.svg" alt="delivery" class="services__img services__img_third">
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <div class="container">
+                <ul class="sponsors__list">
+                    <li class="sponsors__item"><a href="#" class="sponsors__link"><img src="img/logo-1.png" alt="dji" class="sponsors__img"></a></li>
+                    <li class="sponsors__item"><a href="#" class="sponsors__link"><img src="img/logo-2.png" alt="sp.gadgets" class="sponsors__img"></a></li>
+                    <li class="sponsors__item"><a href="#" class="sponsors__link"><img src="img/logo-3.png" alt="gopro" class="sponsors__img"></a></li>
+                    <li class="sponsors__item"><a href="#" class="sponsors__link"><img src="img/logo-4.png" alt="vive" class="sponsors__img"></a></li>
+                </ul>
             </div>
         </section>
     </main>

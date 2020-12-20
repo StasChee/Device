@@ -1,0 +1,9 @@
+.sponsors {
+    padding: 94px 0; 
+    &__list {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+        justify-content: space-around;
+    }
+}
