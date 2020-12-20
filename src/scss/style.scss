@@ -11,6 +11,7 @@ a {
 }
 
 $bg-color: #f7e296;
+$yellow-saturated: #f0c52e;
 
 .container {
     width: 100%;
@@ -23,3 +24,4 @@ $bg-color: #f7e296;
 @import 'title';
 @import 'slider';
 @import 'buttons';
+@import 'menu';

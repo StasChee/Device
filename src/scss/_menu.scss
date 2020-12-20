@@ -1,0 +1,25 @@
+.menu {
+    margin-top: 30px;
+
+    &__list {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        width: 160px;
+        height: 160px;
+        background-color: $bg-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__descr {
+        width: 157px;
+        font-family: 'gilroy';
+        font-size: 18px;
+        font-weight: 900;
+        padding-top: 34px;
+    }
+}

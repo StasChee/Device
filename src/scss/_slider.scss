@@ -3,7 +3,7 @@
     max-width: 100%;
     position: relative;
     margin: auto;
-    height: 486px;
+    min-height: 430px;
     margin-bottom: 15px;
     padding-left: 90px;
 
@@ -40,6 +40,9 @@
             height: 486px;
             object-fit: contain;
             margin-top: -121px;
+            &_third {
+                margin-top: -157px;
+            }
         }
         &__descr {
             font-weight: 300;
