@@ -1,7 +1,7 @@
 .buttons {
     border: none;
     background-color: $yellow-saturated;
-    min-width: 220px;
+    width: 220px;
     height: 8px;
     font-size: 18.5px;
     font-family: 'gilroy';
@@ -15,5 +15,9 @@
         display: block;
         text-align: center;
         margin-top: -7px;
+    }
+    
+    &_services {
+        width: 160px;
     }
 }
