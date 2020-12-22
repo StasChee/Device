@@ -12,6 +12,7 @@ a {
 
 $bg-color: #f7e296;
 $yellow-saturated: #f0c52e;
+$footer: #ffc600;
 
 .container {
     width: 100%;
@@ -45,3 +46,5 @@ input[type="radio"].visually-hidden {
 @import 'menu';
 @import 'services';
 @import 'sponsors';
+@import 'information';
+@import 'footer';
