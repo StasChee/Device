@@ -7,8 +7,11 @@
         display: flex;
         justify-content: space-between;
     }
+    &__item {
+        max-width: 160px;
+        width: 100%;
+    }
     &__block {
-        width: 160px;
         height: 160px;
         background-color: $bg-color;
         display: flex;
@@ -16,7 +19,6 @@
         align-items: center;
     }
     &__descr {
-        width: 157px;
         font-family: 'gilroy';
         font-size: 18px;
         font-weight: 900;
