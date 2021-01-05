@@ -1,4 +1,9 @@
 .information {
+    a:hover {
+        color: rgb(83, 83, 83);
+        transition: 0.1s all;
+    }
+
     .info {
         display: flex;
         justify-content: space-between;

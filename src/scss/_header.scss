@@ -4,6 +4,11 @@
     margin-top: 50px;
     position: relative;
 
+    a:hover {
+        color: rgb(83, 83, 83);
+        transition: 0.1s all;
+    }
+
     .user {
         &__list {
             display: flex;

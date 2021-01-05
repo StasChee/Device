@@ -3,6 +3,11 @@
     min-height: 323px;
     margin-top: 93px;
     position: relative;
+
+    a:hover {
+        color: rgb(175, 175, 175);
+        transition: 0.1s all;
+    }
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -66,45 +71,51 @@
         &-item {
             font-weight: 300;
         }
-        &-link {
+        &-login {
             color: #ffffff;
             margin-right: 64px;
-            &:nth-child(1) {
-                &::before {
-                    content: '';
-                    display: block;
-                    position: absolute;
-                    width: 13px;
-                    height: 12px;
-                    right: 312px;
-                    top: 73px;
-                    background: url('../img/user-yellow.svg');
-                }
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 13px;
+                height: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -27px;
+                background: url('../img/user-yellow.png');
             }
-            &:nth-child(2) {
-                &::before {
-                    content: '';
-                    display: block;
-                    position: absolute;
-                    width: 10px;
-                    height: 10px;
-                    right: 202px;
-                    top: 74px;
-                    background: url('../img/compare-yellow.svg');
-                }
+        }
+        &-compare {
+            color: #ffffff;
+            margin-right: 64px;
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -20px;
+                background: url('../img/compare-yellow.png');
             }
-            &:nth-child(3) {
-                margin-right: 0;
-                &::before {
-                    content: '';
-                    display: block;
-                    position: absolute;
-                    width: 12px;
-                    height: 12px;
-                    right: 72px;
-                    top: 74px;
-                    background: url('../img/cart-yellow.svg');
-                }
+        }
+        &-cart {
+            color: #ffffff;
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -24px;
+                background: url('../img/cart-yellow.png');
             }
         }
     }
